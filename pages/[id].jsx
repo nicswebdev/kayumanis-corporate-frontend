@@ -33,7 +33,7 @@ const custom = ({pageDetailData}) => {
 
 export default custom;
 
-export async function getServerSideProps({params}) {
+export async function getStaticProps({params}) {
     const slug = params.id;
 
     const pageDetailData = await fetch(
