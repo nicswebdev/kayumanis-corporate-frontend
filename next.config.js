@@ -2,9 +2,6 @@
 const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
-    experimental: {
-        largePageDataBytes: 256 * 100000,
-    },
 };
 
 module.exports = {
